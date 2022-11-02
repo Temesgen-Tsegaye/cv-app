@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Main from "./Components/Main/Main";
+import Header from "./Components/Header/Header";
 
+import { useReactToPrint } from "react-to-print";
+
+
+import { useState, useRef } from "react";
 function App() {
+  const [privew, setPrivew] = useState(true);
+
+  const PrivewHandler = () => {
+    setPrivew((prive) => {
+      return !prive;
+    });
+  };
+  
+  const componentRef = useRef(null);
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Header />
+
+      <div className="pdf">
+        <button onClick={PrivewHandler}> {privew ? " Privew" : "Edit"}</button>
+        <button onClick={handlePrint}>Generate Pdf</button>
+        <Main ref={componentRef} privew={privew} /> 
+      </div>
+      
+     
+       
+        
+      
     </div>
   );
 }

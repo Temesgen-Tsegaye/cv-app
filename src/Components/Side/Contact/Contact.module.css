@@ -1,0 +1,63 @@
+.contact{
+    width: 100%;
+    height: 35%;
+    border-style: solid;
+    background-color: rgba(2,2,2,0.9);
+    position: relative;
+    padding-top: 0;
+}
+.edit{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color: white;
+}
+.total{
+    position: relative;
+}
+
+/* final */
+.mainHeader{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.heades{
+    width: 100%;
+    height: 4vh;
+    border-width: 0px 0px 0px 35px;
+    border-style: solid;
+    color: white;
+    text-align: left;
+    padding-left:10px;
+margin: 2px 2px;
+    border-color: rgb(245, 228, 75);
+    background-color: rgba(2,2,2,0.4);
+}
+.lists{
+    display:flex;
+    margin-left: 30px;
+ align-items: baseline;
+ gap:10px;
+ margin-top: 2px;
+ margin-bottom: 2px;
+ color: white;
+}
+.listss{
+
+    margin: 10px 0px 10px 40px;
+    color: white;
+    
+  text-align: left;
+}
+.icons{
+    color: white;
+}
+.lists>P{
+    color: white;
+}
+.socialList{
+    display: flex;
+    flex-direction: column;
+    gap:0px
+}

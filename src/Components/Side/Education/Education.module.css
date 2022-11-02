@@ -1,0 +1,53 @@
+.education{
+    width: 100%;
+    height: 35%;
+    border-style: solid;
+    background-color: black;
+    position: relative;
+}
+
+.educationDispaly{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.edit{
+    position: absolute;
+    top:10px;
+    right:10px;
+    color: white;
+
+}
+.head{
+    width: 90%;
+    height:3rem;
+    padding-bottom:0.5rem;
+    background-color: rgb(8, 8, 32);
+    color: white;
+    font-size: 1.5rem;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: yellow;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.educationFinal{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.educationFinal>p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    margin:  0px 0px 0px 60px;
+}
+.educationFinal>span{
+    color: white;
+    text-align: left;
+    margin:  0px 0px 0px 60px;
+}
