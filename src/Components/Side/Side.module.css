@@ -1,5 +1,9 @@
 .side{
-    width: 35%;
+    width: 30%;
     height: 100%;
-    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+  
 }

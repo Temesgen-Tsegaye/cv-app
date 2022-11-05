@@ -63,8 +63,8 @@ const Additional = ({Privew}) => {
          {Privew&& <FaPenSquare className={styles.pen} id={10} onClick={(e)=>toggleDispaly(e)}/>} 
           
          </div>}
-     {!toggle && <div>
-        <input
+     {!toggle && <div  className=' w-44 h-40 bg-emerald-100 p-1 rounded-2xl flex-col gap-4'>
+        <input className='w-40 block border-solid border-blue-500 rounded border-2 m-1'
           value={input.name}
           onChange={(e) => {
             handleInput(e);
@@ -72,7 +72,7 @@ const Additional = ({Privew}) => {
           name="name"
           type="text"
         />
-        <input
+        <input className='w-40 block border-solid border-blue-500 rounded border-2 m-1'
           value={input.percent}
           onChange={(e) => {
             handleInput(e);
@@ -80,7 +80,7 @@ const Additional = ({Privew}) => {
           name="percent"
           type="text"
         />
-        <button id={9} onClick={(e)=>toggleDispaly(e)}>add</button>
+        <button className='w-36 bg-blue bg-blue-500 h-9 rounded text-white font-bold mx-5 ' id={9} onClick={(e)=>toggleDispaly(e)}>add</button>
       </div>}
     </div>
   );

@@ -14,13 +14,22 @@
     display: flex;
     gap: 5rem;
     flex-direction: row;
+    justify-content: center;
 }
-.pdf>button{
-    width: 7rem;
+.pdf>div{
+  display: flex;
+  /* gap: 3rem; */
+
+
+}
+.pdf>div>button{
+    width: 10rem;
     background-color: royalblue;
     color: white;
     font-size: 1.2rem;
-    padding: 0.2rem;
+    padding:0.5rem;
     border-style: none;
     border-radius: 5px;
+    margin-bottom: 1.5rem;
+    margin-left: 3rem;
 } 

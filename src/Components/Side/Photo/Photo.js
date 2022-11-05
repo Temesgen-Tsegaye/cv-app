@@ -11,7 +11,7 @@ const Photo=({Privew})=>{
     return (
         <div className={styles.photo}>
             
-            {Privew&&<input className={styles.input} type="file" onChange={handleChange} placeholder='addImage' />}
+            {Privew&&<input className={styles.inputt} type="file" onChange={handleChange} placeholder='addImage' />}
             <img className={styles.image} src={file} />
        </div>
     )

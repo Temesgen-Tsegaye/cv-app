@@ -45,13 +45,19 @@ const WorkExperiance=({Privew})=>{
             </div>
             }
             { !toggle&& <div className={styles.form}>
-                <input value={data.jobName} onChange={(e)=>{handleInput(e)}}  type="text" name="jobName" placeholder="job Name"/>
+              <div>
+              <input value={data.jobName} onChange={(e)=>{handleInput(e)}}  type="text" name="jobName" placeholder="job Name"/>
                 <input value={data.place} onChange={(e)=>{handleInput(e)}}  type="text" name="place" placeholder=" place of work"/>
-                <textarea  value={data.detail} onChange={(e)=>{handleInput(e)}}  id="" cols="30" rows="10" name="detail"></textarea>
+              </div>
                
-                <input value={data.start} onChange={(e)=>{handleInput(e)} }id="start" type="number" name="start" placeholder="start" />
+                <textarea  value={data.detail} onChange={(e)=>{handleInput(e)}}  id="" cols="30" rows="10" name="detail"></textarea>
+                 <div>
+                 <input value={data.start} onChange={(e)=>{handleInput(e)} }id="start" type="number" name="start" placeholder="start" />
                 
                 <input value={data.end} onChange={(e)=>{handleInput(e)}} id="end" type="number" name="end" placeholder="end" />
+                 </div>
+        
+                
                 <button onClick={toggleDispaly}>add</button>
                 
             </div>

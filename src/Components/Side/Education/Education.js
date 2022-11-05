@@ -30,7 +30,7 @@ const Education = ({Privew}) => {
   return (
     <div className={styles.education}>
       {toggle && (
-        <div>
+        <div className={styles.form}>
           <input
             onChange={(e) => {
               handleInput(e);

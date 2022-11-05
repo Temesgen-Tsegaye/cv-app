@@ -31,8 +31,8 @@ const Contact = ({Privew}) => {
   }
   return <div className={styles.contact}>
           {toggle && (
-        <form action="">
-          <div>
+       
+          <div className={styles.form}>
             <input
               value={inputs.email}
               name="email"
@@ -73,7 +73,7 @@ const Contact = ({Privew}) => {
 
             <button onClick={toggleDispaly} type="button">add</button>
           </div>
-        </form>
+       
       )}
       {!toggle && (
         <div>
@@ -81,17 +81,17 @@ const Contact = ({Privew}) => {
 
           {Privew&&<FaPenSquare onClick={toggleDispaly} className={styles.edit} />}
           <div>
-          <p className={styles.heades}>email</p>
+          <p className={styles.heades}>EMAIL</p>
           <p className={styles.listss}>{inputs.email}</p>
           </div>
          
           <div>
-            <p className={styles.heades}>phone no</p>
+            <p className={styles.heades}>PHONE NO</p>
             <p className={styles.listss}>{inputs.primaryNo}</p>
             <p className={styles.listss}>{inputs.altNo}</p>
           </div>
           <div>
-            <p className={styles.heades}>social midea</p>
+            <p className={styles.heades}>SOCIAL MIDEA</p>
              <div className={styles.socialList}>
              <p className={styles.lists}>
               <FaLinkedin className={styles.icons} />

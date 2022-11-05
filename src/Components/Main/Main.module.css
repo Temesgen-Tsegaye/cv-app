@@ -1,7 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .main{
     width: 210mm;
     height: 297mm;
-    border-style: solid;
+    
     display: flex;
     
 }

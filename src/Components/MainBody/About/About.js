@@ -30,8 +30,8 @@ const About=({Privew})=>{
 }
 
             {!toggle&&<div className={styles.form}>
-                <textarea value={about} onChange={(e)=>{handleInput(e)}} name="" id="" cols="30" rows="10"></textarea>
-                <button onClick={toggleDispaly}>add</button>
+                <textarea className=' focus:outline-none  rounded-xl w-52 h-40 font-medium border-2 border-cyan-600 ' value={about} onChange={(e)=>{handleInput(e)}} name="" id="" cols="30" rows="10"></textarea>
+                <button className=' font-bold text-lg text-white p1 rounded-xl block p-2 w-20 bg-cyan-400  ' onClick={toggleDispaly}>add</button>
             </div>
 }
             
