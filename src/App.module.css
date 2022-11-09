@@ -16,11 +16,9 @@
     flex-direction: row;
     justify-content: center;
 }
-.pdf>div{
+.whatever{
   display: flex;
-  /* gap: 3rem; */
-
-
+  gap:50vw
 }
 .pdf>div>button{
     width: 10rem;
