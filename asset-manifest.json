@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Memory-Game/static/css/main.a5592774.css",
-    "main.js": "/Memory-Game/static/js/main.3575faca.js",
-    "index.html": "/Memory-Game/index.html",
-    "main.a5592774.css.map": "/Memory-Game/static/css/main.a5592774.css.map",
-    "main.3575faca.js.map": "/Memory-Game/static/js/main.3575faca.js.map"
+    "main.css": "/cv-app/static/css/main.a5592774.css",
+    "main.js": "/cv-app/static/js/main.3575faca.js",
+    "index.html": "/cv-app/index.html",
+    "main.a5592774.css.map": "/cv-app/static/css/main.a5592774.css.map",
+    "main.3575faca.js.map": "/cv-app/static/js/main.3575faca.js.map"
   },
   "entrypoints": [
     "static/css/main.a5592774.css",
