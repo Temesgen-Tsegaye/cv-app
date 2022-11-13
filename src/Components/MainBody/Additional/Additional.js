@@ -71,6 +71,7 @@ const Additional = ({Privew}) => {
           }}
           name="name"
           type="text"
+          placeholder='skill'
         />
         <input className='w-40 block border-solid border-blue-500 rounded border-2 m-1'
           value={input.percent}
@@ -79,6 +80,7 @@ const Additional = ({Privew}) => {
           }}
           name="percent"
           type="text"
+          placeholder='40'
         />
         <button className='w-36 bg-blue bg-blue-500 h-9 rounded text-white font-bold mx-5 ' id={9} onClick={(e)=>toggleDispaly(e)}>add</button>
       </div>}
